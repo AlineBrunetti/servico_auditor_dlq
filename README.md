@@ -33,7 +33,8 @@ O serviço não salva o erro no banco de qualquer jeito. Antes de persistir, ele
 
 ## Evidências de Funcionamento
 
-![alt text](<Prints_de_Funcionamento/Captura de tela 2026-05-21 164855.png>)
 - **Print 1:** Console do Java interceptando a mensagem do SQS.
-![alt text](<Prints_de_Funcionamento/Captura de tela 2026-05-21 165022.png>)
+![alt text](<Prints_de_Funcionamento/Captura de tela 2026-05-21 164855.png>)
+
 - **Print 2:** Banco de dados H2 comprovando que a mensagem foi persistida com os campos exigidos.
+![alt text](<Prints_de_Funcionamento/Captura de tela 2026-05-21 165022.png>)
